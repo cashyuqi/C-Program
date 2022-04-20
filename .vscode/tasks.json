@@ -1,0 +1,23 @@
+{
+"version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "build(gcc)",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "-o",
+                "/tmp/buildtempc",
+                "*.c"                  // 匹配所有源文件
+            ],
+            "options": {
+                "cwd": "${fileDirname}" // 定位到当前目录
+            },
+            "group": {
+                "kind": "build",
+             "isDefault": true
+            }
+        }
+    ]
+}
