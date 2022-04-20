@@ -5,9 +5,9 @@
 [简书](http://jianshu.com)
 ## 代码块
  ```
-    function fun(){
-      echo "这是一句非常牛逼的代码";
+    int main(){
+        printf("hello world");
+        return 0;
     }
-    fun();
 ```
 ## 
