@@ -23,4 +23,5 @@
     "files.associations": {
         "stdio.h": "c"
     }, // 格式化时调整include的顺序（按字母排序）
+    //vscode 环境变量配置
 }
