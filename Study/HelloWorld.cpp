@@ -1,5 +1,14 @@
 #include <stdio.h>
-int main(){
-    printf("hello world");
-    return 0;
+ 
+int main()
+ {
+     int i = 0;
+     while(i < 10)
+     {                                                                                                                                                                                                                          
+         printf("hello world!\n");
+         i++;
+     }
+      printf("\n");
+  
+      return 0;
 }

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.defaultLanguage": "c",
+		"files.associations": {
+			"stdio.h": "c"
+		},
+		"java.project.sourcePaths": []
+	}
+}
